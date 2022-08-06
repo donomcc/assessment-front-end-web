@@ -14,12 +14,19 @@
     </nav>
 
     <content>
-      <h1>Welcome to this little website.</h1>
+      <h1>Hello World</h1>
       <!-- insert hello world here -->
 
       <img
-        src="https://devmountain.com/wp-content/uploads/2020/10/devmountain-logo3.png"
+        id="duckImg"
+        src="https://media.istockphoto.com/photos/rubber-duck-picture-id164922078?k=20&m=164922078&s=170667a&w=0&h=Gj36lZeekVW_v6n9z_1bQOks9ZZDvRFhs9iv4_sBJOI="
       />
+      <p>Welcome User!</p>
+      <ul>
+        <li>Smart</li>
+        <li>Efficient</li>
+        <li>Effective</li>
+      </ul>
 
       <h2>Contact Us</h2>
       <form id="contact">
@@ -30,6 +37,42 @@
         <input type="textarea" />
 
         <input type="submit" />
+        <form>
+          How did you hear about us?<br />
+          <label class="checkbox">
+            <input
+              class="input-checkbox"
+              name="checkbox"
+              id="google"
+              value="1"
+              type="checkbox"
+            />
+            Google
+          </label>
+          <br />
+          <label class="checkbox">
+            <input
+              class="input-checkbox"
+              name="checkbox"
+              id="aFriend"
+              value="1"
+              type="checkbox"
+            />
+            A Friend
+          </label>
+          <br />
+          <label class="checkbox">
+            <input
+              class="input-checkbox"
+              name="checkbox"
+              id="other"
+              value="1"
+              type="checkbox"
+            />
+            Other
+          </label>
+          <!-- had a hell of a time trying to get the checkbox and label on the same line -->
+        </form>
       </form>
     </content>
 
